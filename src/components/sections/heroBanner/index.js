@@ -1,9 +1,11 @@
+// ================= New chnages in Bg =====================
+
 import "./heroBanner.css";
-import BackgroundVideo from "../../../BackgroundVideo.mp4";
+import BackgroundImg from "../../../spac-x-bg-1.jpg";
 export default function HeroBanner() {
   return (
     <div className="hero-container">
-      <video src={BackgroundVideo} autoPlay loop muted />
+      <img src={BackgroundImg} />
       <p> Welcome To SpaceX </p>
     </div>
   );
